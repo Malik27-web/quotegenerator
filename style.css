@@ -1,0 +1,146 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Manrope', sans-serif;
+
+}
+body{
+
+background-color: hsl(218, 23%, 16%);
+
+
+}
+.container{
+ min-width: 20rem;
+position: absolute;
+left: 50%;
+top: 50%;
+min-height: 22rem;
+border-radius: .75rem;
+transform: translate(-50%,-50%);
+background-color: hsl(217, 19%, 24%);
+display: flex;
+flex-direction: column;
+padding: 2rem;
+align-items: center;
+gap: 5rem;
+
+
+}
+.advice-number{
+white-space: nowrap;
+color:hsl(150, 100%, 66%);
+font-size: 1.25rem;
+font-weight: 500;
+}
+.number{
+    white-space: nowrap;
+    color:hsl(150, 100%, 66%);
+    font-size: 1.25rem;
+    font-weight: 500;
+
+}
+.quote{
+
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.line2{
+
+width: 15rem;
+color: white;
+max-height: .5px;
+border: .5px solid white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.line2 svg{
+color: white;
+width: 2.5rem;
+height: 1.75rem;
+background-color:hsl(217, 19%, 24%) ; 
+}
+.circle{
+width: 4rem;
+height: 4rem;
+border-radius: 50%;
+background-color:hsl(150, 100%, 66%);
+position: absolute;
+top: 99%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.circle:hover{
+
+box-shadow: 0 0 5px hsl(150, 100%, 66%), 0 0 25px hsl(150, 100%, 66%), 0 0  50px hsl(150, 100%, 66%), 0 0 200px hsl(150, 100%, 66%);
+
+}
+.circle svg{
+width: 3rem;
+height: 2rem;
+}
+
+
+
+
+@media only screen and (min-width:768px){
+.container{
+
+    min-width: 35rem;
+    min-height: 22rem;
+    left: 50%;
+top: 50%;
+min-height: 22rem;
+border-radius: .75rem;
+transform: translate(-50%,-50%);
+}
+.circle{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color:hsl(150, 100%, 66%);
+    position: absolute;
+    top: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.line2{
+    width: 30rem;
+
+}
+
+
+}
+@media only screen and (min-width:1440px){
+
+.container{
+min-width: 40rem;
+ min-height: 25rem;
+ left: 50%;
+top: 50%;
+min-height: 22rem;
+border-radius: .75rem;
+transform: translate(-50%,-50%);
+}
+.line2{
+    width: 35rem;
+
+}
+.circle{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color:hsl(150, 100%, 66%);
+    position: absolute;
+    top: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}
